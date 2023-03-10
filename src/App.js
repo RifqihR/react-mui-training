@@ -12,7 +12,7 @@ function App() {
     run();
     setInterv(setInterval(run, 100))
   };
-
+ 
   const run = ()=>{
     if(updateM === 60){
       updateH++;
